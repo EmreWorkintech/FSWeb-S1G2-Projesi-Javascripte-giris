@@ -19,7 +19,7 @@ Aşağıdakileri yapın:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
-
+//
 const surucuYasi = 15;
 if (surucuYasi > 18) {
   console.log(true);
