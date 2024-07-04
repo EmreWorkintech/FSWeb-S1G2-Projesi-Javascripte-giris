@@ -20,7 +20,12 @@ Aşağıdakileri yapın:
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
 
-
+const surucuYasi = 15;
+if (surucuYasi > 18) {
+  console.log(true);
+} else {
+  console.log(false);
+}
 
 /*
 Görev 1b - Değerler (puanlamaya dahil değildir)
@@ -34,10 +39,6 @@ Aşağıdakileri yapınız:
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
 
-
-
-
-
 /*
 Görev 1c - String bir değeri Number'a dönüştürün (puanlamaya dahil değildir)
 
@@ -49,9 +50,6 @@ Aşağıdakileri yapın:
    İPUCU: Number metoduna bakabilirsin
 */
 
-
-
-
 /*
 Görev 1d - Çarpma
  
@@ -61,12 +59,9 @@ Aşağıdakileri yapın:
    3. a ve b'yi çarpıp, sonucu dönün
 */
 
-function carpma(/*buraya kodunu yazabilirsin*/){
+function carpma(/*buraya kodunu yazabilirsin*/) {
   /*buraya kodunu yazabilirsin*/
 }
-
-
-
 
 /* Görev 2 : Köpeğin Yaşı */
 
@@ -77,11 +72,9 @@ Aşağıdakileri yapın:
  3. Hesaplanan köpeğin yaşını dönün.
  */
 
-function kopeginYasi(/*buraya kodunu yazabilirsin*/){
+function kopeginYasi(/*buraya kodunu yazabilirsin*/) {
   /*buraya kodunu yazabilirsin*/
 }
-
-
 
 /* Görev 3 */
 
@@ -104,11 +97,9 @@ Aşağıdakileri oyun isimli fonksiyonu kullanarak yapın.
 OYUNUN KURALLARI: Makas Kağıdı yener| Kağıt Taşı yener | Taş Makas'ı yener | veya beraberlik olur.
 */
 
-function oyun(oyuncu, bilgisayar){
+function oyun(oyuncu, bilgisayar) {
   /*buraya kodunu yazabilirsin*/
 }
-
-
 
 /* Görev 4 : Metrik Dönüştürücü */
 
@@ -120,11 +111,9 @@ Aşağdakileri milDonusturucu fonksiyonunu kullanarak yapın:
 3. Mil değerini geri dönün
 */
 
-function milDonusturucu(/*buraya kodunu yazabilirsin*/){
+function milDonusturucu(/*buraya kodunu yazabilirsin*/) {
   /*buraya kodunu yazabilirsin*/
 }
-
-
 
 //Görev 4b - Santimetreden Feet
 /*
@@ -134,11 +123,9 @@ Aşağıdakileri feetDonusturucu fonsiyonunu kullanarak yapın:
 3. feet değerini geri dönün
 */
 
-function feetDonusturucu(/*buraya kodunu yazabilirsin*/){
+function feetDonusturucu(/*buraya kodunu yazabilirsin*/) {
   /*buraya kodunu yazabilirsin*/
 }
-
-
 
 /* Görev 5 : 5 küçük maymun yatakta zıplamış şarkısını çocuklar için hazırladığımızı varsayalım. https://www.youtube.com/watch?v=e4EJ34xnlxk */
 
@@ -153,10 +140,9 @@ Aşağıdakileri cocukSarkisi fonksiyonunda yapın:
 4. Bu döngüde, her seferinde cocukSarkisi fonsiyonu çalışsın ve console.log'a dönen metni yazdırsın.
 */
 
-function cocukSarkisi(/*buraya kodunu yazabilirsin*/){
-      /*buraya kodunu yazabilirsin*/
+function cocukSarkisi(/*buraya kodunu yazabilirsin*/) {
+  /*buraya kodunu yazabilirsin*/
 }
-
 
 /* Görev 6 : Not Hesaplayıcı */
 
@@ -173,11 +159,9 @@ Aşağdakileri notHesapla fonksiyonunda yapın.
  dönün
 */
 
-function notHesapla(/*buraya kodunu yazabilirsin*/){
-/*buraya kodunu yazabilirsin*/
+function notHesapla(/*buraya kodunu yazabilirsin*/) {
+  /*buraya kodunu yazabilirsin*/
 }
-
-
 
 /* Bonus Çalışma: Sesli harf sayacı - Kaç tane sesli harf var? */
 
@@ -190,17 +174,14 @@ Aşağıdakileri sesliHarfSayaci fonskiyonunda yapın.
 İPUCU - .includes() methoduna bakabilirsin. (https://www.w3schools.com/jsref/jsref_includes.asp)
 */
 
-
 function sesliHarfSayaci(/*buraya kodunu yazabilirsin*/) {
   /*buraya kodunu yazabilirsin*/
 }
 
-
-
 /* Lütfen bu satırın alt tarafını değiştirmeyin */
-function sa(){
-  console.log('Kodlar çalışıyor');
-  return 'as';
+function sa() {
+  console.log("Kodlar çalışıyor2");
+  return "as";
 }
 sa();
 /* Bu satırdan sonrasını değiştirmeyin */
@@ -212,5 +193,5 @@ module.exports = {
   milDonusturucu,
   feetDonusturucu,
   cocukSarkisi,
-  notHesapla
-}
+  notHesapla,
+};
